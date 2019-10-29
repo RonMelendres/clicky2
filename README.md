@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clicky-Game
 
-## Available Scripts
+## Summary
 
-In the project directory, you can run:
+This project uses react a a way to build an application.
 
-### `npm start`
+## Site Picture
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alttext](images/app-screen-shot.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## New Technologies Used
 
-### `npm test`
+React - Javascript library for building user interface. Users are able write Javascript with html like code while using components and properties to connect to different files.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Development
 
-### `npm run build`
+Fure developements include adding more characrters to increase the difficulty. Adding voice clips to make the game a bit more enjoyable. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Improvments to styling to make the game look more pleasing.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Challenges and Code Snippet 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There were plenty of challenges to this project. This ranged from sorting out and going through multiple files to creating certain functions. 
 
-### `npm run eject`
+One challenge was trying get the score to show up on the browser. This puzzled me for a while becuase the score was showing up in the DOM. I realized that the props. were in the wrong placement in both the app.js file and Navbar index file. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Another big challenge was trying to figure out how to create a shuffle function. This step is very important as it is what makes the game a challenge for the player. This took a lot of research time and error and trial for this function to work.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```js
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+shuffleCharacters = () => {
+        this.characters = characters;
+        this.count = function () {
+            return this.characters.length;
+        }
+        for (var i = this.characters.length - 1; i >= 0; i--) {
+            var randIndex = Math.floor(Math.random() * (i + 1));
+            var tempCharacter = this.characters[i];
+            this.characters[i] = this.characters[randIndex];
+            this.characters[randIndex] = tempCharacter;
+        }
+        this.setState({
+            characters
+        });
+    };

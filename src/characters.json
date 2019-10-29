@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Ferdinand von Aegir",
+        "image": "https://fireemblemwiki.org/w/images/thumb/c/c2/Small_portrait_ferdinand_fe16.png/128px-Small_portrait_ferdinand_fe16.png"
+    },
+    {
+        "id": 2,
+        "name": "Sylvain",
+        "image": "https://fireemblemwiki.org/w/images/thumb/b/be/Small_portrait_sylvain_fe16.png/128px-Small_portrait_sylvain_fe16.png"
+    },
+    {
+        "id": 3,
+        "name": "Dorothea",
+        "image": "https://fireemblemwiki.org/w/images/thumb/e/e3/Small_portrait_dorothea_fe16.png/128px-Small_portrait_dorothea_fe16.png"
+    },
+    {
+        "id": 4,
+        "name": "Annette",
+        "image": "https://fireemblemwiki.org/w/images/thumb/0/08/Small_portrait_annette_fe16.png/128px-Small_portrait_annette_fe16.png"
+    },
+    {
+        "id": 5,
+        "name": "Leonie",
+        "image": "https://fireemblemwiki.org/w/images/thumb/9/94/Small_portrait_leonie_fe16.png/128px-Small_portrait_leonie_fe16.png"
+    },
+    {
+        "id": 6,
+        "name": "Ingrid",
+        "image": "https://fireemblemwiki.org/w/images/thumb/8/82/Small_portrait_ingrid_fe16.png/128px-Small_portrait_ingrid_fe16.png"
+    },
+    {
+        "id": 7,
+        "name": "Jeralt",
+        "image": "https://fireemblemwiki.org/w/images/thumb/1/16/Small_portrait_jeralt_fe16.png/128px-Small_portrait_jeralt_fe16.png"
+    },
+    {
+        "id": 8,
+        "name": "Gilbert",
+        "image": "https://fireemblemwiki.org/w/images/thumb/6/62/Small_portrait_gilbert_fe16.png/128px-Small_portrait_gilbert_fe16.png"
+    },
+    {
+        "id": 9,
+        "name": "Dimitri",
+        "image": "https://fireemblemwiki.org/w/images/thumb/2/25/Small_portrait_dimitri_fe16.png/128px-Small_portrait_dimitri_fe16.png"
+    },
+    {
+        "id": 10,
+        "name": "Petra",
+        "image": "https://fireemblemwiki.org/w/images/thumb/4/46/Small_portrait_petra_fe16.png/128px-Small_portrait_petra_fe16.png"
+    },
+    {
+        "id": 11,
+        "name": "Male Byleth",
+        "image": "https://fireemblemwiki.org/w/images/thumb/b/bc/Small_portrait_byleth_m_fe16.png/128px-Small_portrait_byleth_m_fe16.png"
+    },
+    {
+        "id": 12,
+        "name": "Mercedes",
+        "image": "https://fireemblemwiki.org/w/images/thumb/f/f5/Small_portrait_mercedes_fe16.png/128px-Small_portrait_mercedes_fe16.png"
+    }
+
+]
