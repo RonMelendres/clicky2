@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clicky2/static/css/main.b100e6da.chunk.css",
+    "main.js": "/clicky2/static/js/main.bd55197f.chunk.js",
+    "main.js.map": "/clicky2/static/js/main.bd55197f.chunk.js.map",
+    "runtime-main.js": "/clicky2/static/js/runtime-main.4e06f548.js",
+    "runtime-main.js.map": "/clicky2/static/js/runtime-main.4e06f548.js.map",
+    "static/js/2.660a23d2.chunk.js": "/clicky2/static/js/2.660a23d2.chunk.js",
+    "static/js/2.660a23d2.chunk.js.map": "/clicky2/static/js/2.660a23d2.chunk.js.map",
+    "index.html": "/clicky2/index.html",
+    "precache-manifest.68be1e4e12a8dfa11ddec4fb4a837fd8.js": "/clicky2/precache-manifest.68be1e4e12a8dfa11ddec4fb4a837fd8.js",
+    "service-worker.js": "/clicky2/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/clicky2/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/clicky2/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e06f548.js",
+    "static/js/2.660a23d2.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.bd55197f.chunk.js"
+  ]
+}
