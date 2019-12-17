@@ -1,12 +1,13 @@
 import React from "react";
+import "./NavBarStyle.css";
 // import App from "../../App";
 
 function NavBar(props) {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-light">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 
-                <div>Clicky Game</div>
+                <div>FE: Three Houses Click Game</div>
 
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="nav">

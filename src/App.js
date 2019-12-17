@@ -82,6 +82,8 @@ class App extends Component {
                     highScore={this.state.highScore}
                     handleIncrement={this.handleIncrement}
                 />
+                <br></br>
+                <br></br>
 
                 <Jumbotron />
 

@@ -1,8 +1,16 @@
-/* .container {
+ /* .container {
     position: fixed;
-}
+} */
 
-.navbar li {
+/* .navbar li {
     display:inline-block;
     text-align: center;
-} */
+}  */
+
+.navbar, .fixed-top, .navbar-expand-lg, .navbar-dark, .bg-dark {
+    color: white;
+};
+
+.nav {
+    color: white;
+};
