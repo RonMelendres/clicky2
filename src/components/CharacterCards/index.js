@@ -5,11 +5,9 @@ function CharacterCards(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img alt={props.name} src={props.image} />
+                <img onClick={() => props.guessCharacter(props.id)} className="guess" alt={props.name} src={props.image} />
             </div>
-            <span onClick={() => props.guessCharacter(props.id)} className="guess">
-                x
-            </span>
+            
 
         </div>
     );
@@ -17,3 +15,6 @@ function CharacterCards(props) {
 
 export default CharacterCards;
 
+/* <span onClick={() => props.guessCharacter(props.id)} className="guess">
+                x
+            </span> */
