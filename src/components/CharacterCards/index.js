@@ -8,7 +8,6 @@ function CharacterCards(props) {
                 <img onClick={() => props.guessCharacter(props.id)} className="guess" alt={props.name} src={props.image} />
             </div>
             
-
         </div>
     );
 }
